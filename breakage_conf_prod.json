@@ -1,0 +1,193 @@
+{
+  "publicConf": {
+    "permitAuditMgrId": "13,51",
+    "auditDoneAppendingAuditId": "99999999",
+    "wxNotifyPmMsgTemplate": "%s，id：%s，sku：%s，报损%s件，请尽快前往灯塔小程序审核！",
+    "wxNotifyThirdMsgTemplate": "%s，id：%s，sku：%s，产品申请修改仓库报损数量，请尽快前往灯塔小程序审核！",
+    "wxCcThirdMsgTemplate": "%s，id：%s，sku：%s，产品申请修改仓库报损数量，请尽快确认！",
+    "dingdingMsgTemplate": "商品id：%s，sku：%s ，报损数量修改审核通过，需回退库存：%s，请知晓！",
+    "wxCcThirdInfo": [
+      {
+        "jobNum": "1000234",
+        "name": "黄乾炜"
+      },
+      {
+        "jobNum": "1000225",
+        "name": "关耀君"
+      },
+      {
+        "jobNum": "1000442",
+        "name": "张鹏宇"
+      }
+    ],
+    "auditState": [
+      {
+        "id": 0,
+        "name": "初始状态"
+      },
+      {
+        "id": 1,
+        "name": "待仓经审核"
+      },
+      {
+        "id": 2,
+        "name": "仓经驳回"
+      },
+      {
+        "id": 3,
+        "name": "待产品审核"
+      },
+      {
+        "id": 4,
+        "name": "待三方审核"
+      },
+      {
+        "id": 5,
+        "name": "待产品确认"
+      },
+      {
+        "id": 6,
+        "name": "审核完成"
+      }
+    ]
+  },
+  "privateConf": [
+    {
+      "mchId": 6001,
+      "openedDengta": true,
+      "skipMgrAuditThr": 100,
+      "skipPmAuditThr": 200,
+      "skipThirdAuditThr": 300,
+      "supplierBearThr": 300,
+      "openedWxCcThird": true,
+      "permitAuditThirdInfo": [
+        {
+          "ssoId": "3779",
+          "jobNum": "1000004",
+          "name": "高利"
+        },
+        {
+          "ssoId": "3383",
+          "jobNum": "1000134",
+          "name": "王丽珍"
+        },
+        {
+          "ssoId": "3475",
+          "jobNum": "1000234",
+          "name": "黄乾炜"
+        },
+        {
+          "ssoId": "3475",
+          "jobNum": "1000234",
+          "name": "黄乾炜"
+        },
+        {
+          "ssoId": "3772",
+          "jobNum": "1000183",
+          "name": "王玉"
+        },
+        {
+          "ssoId": "23649",
+          "jobNum": "9000174",
+          "name": "刘旋"
+        },
+        {
+          "ssoId": "28143",
+          "jobNum": "1001283",
+          "name": "于德权"
+        },
+        {
+          "ssoId": "24448",
+          "jobNum": "1001073",
+          "name": "田龙"
+        }
+      ],
+      "defaultPermitAuditPmInfo": [
+        {
+          "ssoId": "3391",
+          "jobNum": "1000009",
+          "name": "杨晴蔚"
+        }
+      ]
+    },
+    {
+      "mchId": 8001,
+      "openedDengta": true,
+      "skipMgrAuditThr": 100,
+      "skipPmAuditThr": 200,
+      "skipThirdAuditThr": 300,
+      "supplierBearThr": 300,
+      "openedWxCcThird": false,
+      "permitAuditThirdInfo": [
+        {
+          "ssoId": "3779",
+          "jobNum": "1000004",
+          "name": "高利"
+        },
+        {
+          "ssoId": "3383",
+          "jobNum": "1000134",
+          "name": "王丽珍"
+        },
+        {
+          "ssoId": "3475",
+          "jobNum": "1000234",
+          "name": "黄乾炜"
+        },
+        {
+          "ssoId": "3475",
+          "jobNum": "1000234",
+          "name": "黄乾炜"
+        },
+        {
+          "ssoId": "4354",
+          "jobNum": "2000062",
+          "name": "尹邦进"
+        },
+        {
+          "ssoId": "3772",
+          "jobNum": "1000183",
+          "name": "王玉"
+        },
+        {
+          "ssoId": "23649",
+          "jobNum": "9000174",
+          "name": "刘旋"
+        },
+        {
+          "ssoId": "18424",
+          "jobNum": "2000871",
+          "name": "陈诗玲"
+        },
+        {
+          "ssoId": "28143",
+          "jobNum": "1001283",
+          "name": "于德权"
+        },
+        {
+          "ssoId": "24448",
+          "jobNum": "1001073",
+          "name": "田龙"
+        }
+      ],
+      "defaultPermitAuditPmInfo": [
+        {
+          "ssoId": "4144",
+          "jobNum": "2000198",
+          "name": "代妍妍"
+        }
+      ]
+    },
+    {
+      "mchId": 9001,
+      "openedDengta": false,
+      "skipMgrAuditThr": 100,
+      "skipPmAuditThr": 200,
+      "skipThirdAuditThr": 300,
+      "supplierBearThr": 300,
+      "openedWxCcThird": false,
+      "permitAuditThirdInfo": [],
+      "defaultPermitAuditPmInfo": []
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+[
+  {
+    "id": 2,
+    "name": "客退货损",
+    "discount": 0,
+    "child_list": [
+      {
+        "id": 1,
+        "name": "重复配货",
+        "discount": 0
+      },
+      {
+        "id": 2,
+        "name": "发错货退库货损",
+        "discount": 0
+      },
+      {
+        "id": 3,
+        "name": "用户个人原因",
+        "discount": 0
+      },
+      {
+        "id": 4,
+        "name": "包装或挤压破损",
+        "discount": 0
+      },
+      {
+        "id": 5,
+        "name": "产品质量问题退货",
+        "discount": 0
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "盘库报损",
+    "discount": 1,
+    "child_list": [
+      {
+        "id": 1,
+        "name": "仓库管理或人为损坏",
+        "discount": 1
+      },
+      {
+        "id": 2,
+        "name": "临近过期或已过期",
+        "discount": 1
+      },
+      {
+        "id": 3,
+        "name": "产品质量问题货损",
+        "discount": 1
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "到货货损",
+    "discount": 1,
+    "child_list": [
+      {
+        "id": 1,
+        "name": "到货产品质量问题",
+        "discount": 1
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "打包货损",
+    "discount": 1,
+    "child_list": [
+      {
+        "id": 1,
+        "name": "正常打包",
+        "discount": 1
+      },
+      {
+        "id": 2,
+        "name": "二次打包",
+        "discount": 1
+      },
+      {
+        "id": 3,
+        "name": "超周转打包",
+        "discount": 1
+      }
+    ]
+  }
+]
