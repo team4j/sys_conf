@@ -16,6 +16,7 @@ SELECT
     gos.tomorrow_goods_num,
     g.rate_id,
     gs.is_auto_sorting,
+    gs.efficiency,
     str.original_goods_id,
     sg.sku AS original_sku,
     sg.is_labeling
@@ -26,7 +27,7 @@ SELECT
   LEFT JOIN sm_sorting_task_rate str ON str.id = g.rate_id AND gs.is_auto_sorting = 1
   LEFT JOIN sm_goods sg ON sg.id = str.original_goods_id
 WHERE
-    gos.wh_id IN ()
+    gos.wh_id IN (16)
   AND g.cat_id in(3194, 3196) 
   AND gos.tomorrow_goods_num > 0 
   AND `current_date` = date_format(now(), '%Y-%m-%d')
