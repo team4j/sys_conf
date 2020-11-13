@@ -1,0 +1,29 @@
+{
+  "warehouse": [
+    1
+  ],
+  "salesRatio": [
+    {
+      "time": "08:45",
+      "ratio": 0.13,
+      "pkgRatio": 0.5,
+      "pkgUnitSize": 1,
+      "isLast": false
+    },
+    {
+      "time": "12:00",
+      "ratio": 0.13,
+      "pkgRatio": 0.5,
+      "pkgUnitSize": 2,
+      "isLast": false
+    },
+    {
+      "time": "17:00",
+      "ratio": 0.13,
+      "pkgRatio": 0.5,
+      "pkgUnitSize": 9999,
+      "isLast": true
+    }
+  ],
+  "pkgUnit": 2
+}
