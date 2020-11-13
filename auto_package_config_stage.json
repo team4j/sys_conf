@@ -1,6 +1,6 @@
 {
   "warehouse": [
-    1
+    126
   ],
   "salesRatio": [
     {
@@ -12,14 +12,14 @@
     },
     {
       "time": "12:00",
-      "ratio": 0.13,
+      "ratio": 0.5,
       "pkgRatio": 0.5,
       "pkgUnitSize": 2,
       "isLast": false
     },
     {
       "time": "17:00",
-      "ratio": 0.13,
+      "ratio": 0.7,
       "pkgRatio": 0.5,
       "pkgUnitSize": 9999,
       "isLast": true
