@@ -20,7 +20,7 @@
     {
       "time": "17:00",
       "ratio": 0.7,
-      "pkgRatio": 0.5,
+      "pkgRatio": 1,
       "pkgUnitSize": 9999,
       "isLast": true
     }

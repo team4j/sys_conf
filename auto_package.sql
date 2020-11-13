@@ -21,7 +21,6 @@ SELECT
     sg.sku AS original_sku,
     sg.is_labeling
   FROM
-    sm_goods_order_statistics gos
     INNER JOIN sm_goods g ON gos.goods_id = g.id
     INNER JOIN sm_goods_store gs ON gos.goods_id = gs.goods_id AND gs.wh_id = gos.wh_id
   LEFT JOIN sm_sorting_task_rate str ON str.id = g.rate_id AND gs.is_auto_sorting = 1
