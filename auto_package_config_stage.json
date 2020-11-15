@@ -6,14 +6,14 @@
     {
       "time": "08:45",
       "ratio": 0.13,
-      "pkgRatio": 0.5,
+      "pkgRatio": 0.7,
       "pkgUnitSize": 1,
       "isLast": false
     },
     {
       "time": "12:00",
-      "ratio": 0.5,
-      "pkgRatio": 0.5,
+      "ratio": 0.2,
+      "pkgRatio": 0.9,
       "pkgUnitSize": 2,
       "isLast": false
     },
