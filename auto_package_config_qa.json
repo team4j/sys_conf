@@ -8,7 +8,10 @@
       "ratio": 0.13,
       "pkgRatio": 0.5,
       "pkgUnitSize": 1,
-      "isLast": false
+      "isLast": false,
+      "ignoreGoodsIdList": [
+        81950
+      ]
     },
     {
       "time": "12:00",
